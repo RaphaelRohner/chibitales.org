@@ -59,7 +59,7 @@
                                 <li class="nav-item list-inline-item menuitem dropdown">
                                     <a class="btn btn-chib dropdown-toggle" href="play.html" id="navbarDropdownPlay" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-gamepad" aria-hidden="true"></i><span> Play</span></a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownPlay">
-                                    <a class="dropdown-item" href="play.html#adventures">Adventures</a>
+                                    <a class="dropdown-item" href="play.html#rewards">Rewards</a>
                                     <a class="dropdown-item" href="play.html#hunt">Hunt</a>
                                     <a class="dropdown-item" href="play.html#raids">Raids</a>
                                     <a class="dropdown-item" href="play.html#match">Match</a>
@@ -254,15 +254,15 @@
         </div>
     </section>
 
-    <!-- PLAY ADVENTURES SECTION -->
-    <section class="container-fluid" id="adventures">        
+    <!-- PLAY REWARDS SECTION -->
+    <section class="container-fluid" id="rewards">        
         <div class="row">        
-            <!-- PLAY ADVENTURES LEFT COLUMN -->
+            <!-- PLAY REWARDS LEFT COLUMN -->
             <div class="col-md-3 bg-color-theme section-column-left">
                 <div class="row">
                     <div class="col-12">                        
                         <h3 class="section-heading-left uppercase">
-                            Adventures
+                            Rewards
                         </h3>
                     </div>
                 </div>
@@ -273,11 +273,11 @@
                 </div>                
             </div>
             
-            <!-- PLAY ADVENTURES RIGHT COLUMN -->
+            <!-- PLAY REWARDS RIGHT COLUMN -->
             <div class="col-md-9 bg-color-header section-column-right">
                 <div class="row">
                     <div class="col">
-                        <h3 class="section-heading-right uppercase">Up for an Adventure?</h3>
+                        <h3 class="section-heading-right uppercase">Up for a Reward?</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -289,14 +289,13 @@
                             <div class="col-10">
                                 <h4 class="chibi-infos-heading uppercase">What is it?</h4>
                                 <p>
-                                    The two Adventures are the Idle component of Chibis:
+                                    Daily rewards you can claim every 24 hours:
                                 </p>
                                 <ul>
-                                    <li>Send out two teams of one to three Chibis to:</li>
-                                    <li><strong>Courtyard of Death</strong> and</li>
-                                    <li><strong>Pit of Snakes</strong></li>                                    
-                                    <li>Each equipped Chibi earns experience / minute</li>
-                                    <li>Start here to progress quickly !!</li>
+                                    <li>Adventures were replaced with daily rewards</li>
+                                    <li>You can receive 70k experience and...</li>
+                                    <li>...one dust every 24 hours.</li>                                    
+                                    <li>No Chibis or Setup is required</li>
                                 </ul>
                             </div>
                         </div>
@@ -307,18 +306,16 @@
                                 <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="chibi-infos-heading uppercase">Earning Exp</h4>
+                                <h4 class="chibi-infos-heading uppercase">Earning Exp & Dust</h4>
                                 <p>
-                                To send out a Chibi: Click the Adventures Tab and then a grey slot.
-                                </p>
-                                <p>
-                                A list of available cards pops up. Just select one to equip.
-                                </p>
+                                Rewards are more convenient but less fun than Adventures
+                                </p>                                
                                 <ul>
-                                    <li>Courtyard of death requires and earns:</li>
-                                    <li>lvl 1 - 10exp | lvl 5 - 15exp | lvl 10 - 20exp</li>
-                                    <li>Pit of Snakes requires and earns:</li>
-                                    <li>lvl 10 - 10exp | lvl 20 - 20exp | lvl 30 - 30exp</li>
+                                    <li>Just go to the rewards tab and claim your reward</li>
+                                    <li>If you can't claim yet, a timer tells you when to come back</li>
+                                    <li>You should do it every 24h to not miss out on free exp</li>
+                                    <li>The new Dust drop is a major plus for new players</li>
+                                    <li>No need to burn precious cards any more</li>
                                 </ul>
                             </div>
                         </div>
@@ -331,14 +328,14 @@
                             <div class="col-10">
                                 <h4 class="chibi-infos-heading uppercase">Good to know</h4>
                                 <p>
-                                    And here come some tipps for Adventures
+                                    And here come some tipps for Rewards
                                 </p>
                                 <ul>
-                                    <li>It's the BEST way to earn exp. Up to 150k in 24h</li>
-                                    <li>You need to <strong>claim</strong> the exp earned</li>
-                                    <li>After eight hours no more exp is added if you don't</li>                                
-                                    <li>You just need to equip cards once, but...</li>
-                                    <li>Check if a Slot got unequipped accidentally</li>
+                                    <li>Adventures paid you up to 150k per 24h</li>
+                                    <li>Now you get less exp but a free dust on top</li>
+                                    <li>And you only need to claim once every 24 hours</li>
+                                    <li>The new 24h slot starts counting after claiming</li>                                
+                                    <li>So pick a time you are available every day</li>
                                 </ul>
                             </div>
                         </div>
@@ -664,9 +661,12 @@
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block newsletter">
-                    All the Chibi 2.0 Infos<br>                
-                    <a href="#contactModal" data-toggle="modal" data-target="#contactModal">-- Get the News --</a>
+                <p class="inline-block newsletter">                                   
+                    <a href="#aboutusModal" data-toggle="modal" data-target="#aboutusModal">- About Us -</a>
+                </p>
+                <br>               
+                <p class="inline-block newsletter">           
+                    <a href="#changelogModal" data-toggle="modal" data-target="#changelogModal">- Changelog -</a>
                 </p>
             </div>
             <div class="col-sm-4">
@@ -734,29 +734,52 @@
         </div>
     </footer>
         
-    <!-- Modal -->
-    <div class="modal" tabindex="-1" role="dialog" id="contactModal">
+    <!-- MODAL ABOUT US -->
+    <div class="modal" tabindex="-1" role="dialog" id="aboutusModal">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Sign up for our Chibi 2 Newsletter</h5>
+                    <h5 class="modal-title">From players for players</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="Email">Email Address</label>
-                            <input type="email" class="form-control" id="Email" placeholder="just a dummy form for now" aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">Your email won't be shared by us.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="EmailRepeat">Repeat Email</label>
-                            <input type="email" class="form-control" id="EmailRepeat" placeholder="just a dummy form for now">
-                        </div>                        
-                        <button type="submit" class="btn btn-sm btn btn-outline-light">Submit</button>
-                    </form>
+                    <p>Hi there and welcome to chibitales.org!</p>
+                    <p>This page is the result of being obsessed with Chibi Fighters since it came to the Tron blockchain. We are not associated in any other way with the owners of Chibi Fighters, except that we got the OK to make this fanpage.</p>
+                    <p>We try to keep the page as up to date as possible, but it's a one person project and completly voluntary. So, sorry in advance if some information is missing or outdated.</p>
+                    <p>If you want to give feedback or input, please contact Rorschach on either Discord or Telegram for now.</p>
+                    <p> One last word. Putting money into Crypto is a high risk, just spend what you are willing to lose.</p>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL CHANGELOG -->
+    <div class="modal" tabindex="-1" role="dialog" id="changelogModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Changelog</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>26.04.2020</h3>
+                    <p>play - rewards section added</p>
+                    <p>play - adventures section removed</p>
+                    <p>added about us modal</p>
+                    <p>added changelog modal</p>
+                    <p>removed newsletter dummy</p>
+                    <p>removed claim snap shot from setup - create account</p>
+                    <p>removed kickstarter links, added patron links</p>
+                    <p>relaunch chibitales.org</p>
+                    <h3>29.03.2020</h3>
+                    <p>due to review further development on hold</p>
+                    <p>first release via chibitales.org linked to GitHub</p>
+                    <h3>06.03.2020</h3>
+                    <p>chibitales.org starts as a Code Institute Milestone project</p>
                 </div>                
             </div>
         </div>

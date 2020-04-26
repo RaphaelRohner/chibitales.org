@@ -255,13 +255,11 @@ footer{
 }
 
 .newsletter{
-    font-style: oblique;
     letter-spacing: 1.1px;
 }
 
 .newsletter a{
     text-decoration: none;
-    text-transform: uppercase;
     color: #f4f4f4;
 }
 

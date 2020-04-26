@@ -59,7 +59,7 @@
                                 <li class="nav-item list-inline-item menuitem dropdown">
                                     <a class="btn btn-chib dropdown-toggle" href="play.html" id="navbarDropdownPlay" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-gamepad" aria-hidden="true"></i><span> Play</span></a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownPlay">
-                                    <a class="dropdown-item" href="play.html#adventures">Adventures</a>
+                                    <a class="dropdown-item" href="play.html#rewards">Rewards</a>
                                     <a class="dropdown-item" href="play.html#hunt">Hunt</a>
                                     <a class="dropdown-item" href="play.html#raids">Raids</a>
                                     <a class="dropdown-item" href="play.html#match">Match</a>
@@ -562,9 +562,12 @@
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block newsletter">
-                    All the Chibi 2.0 Infos<br>                
-                    <a href="#contactModal" data-toggle="modal" data-target="#contactModal">-- Get the News --</a>
+                <p class="inline-block newsletter">                                   
+                    <a href="#aboutusModal" data-toggle="modal" data-target="#aboutusModal">- About Us -</a>
+                </p>
+                <br>               
+                <p class="inline-block newsletter">           
+                    <a href="#changelogModal" data-toggle="modal" data-target="#changelogModal">- Changelog -</a>
                 </p>
             </div>
             <div class="col-sm-4">
@@ -632,29 +635,52 @@
         </div>
     </footer>
         
-    <!-- Modal -->
-    <div class="modal" tabindex="-1" role="dialog" id="contactModal">
+    <!-- MODAL ABOUT US -->
+    <div class="modal" tabindex="-1" role="dialog" id="aboutusModal">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Sign up for our Chibi 2 Newsletter</h5>
+                    <h5 class="modal-title">From players for players</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="Email">Email Address</label>
-                            <input type="email" class="form-control" id="Email" placeholder="just a dummy form for now" aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">Your email won't be shared by us.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="EmailRepeat">Repeat Email</label>
-                            <input type="email" class="form-control" id="EmailRepeat" placeholder="just a dummy form for now">
-                        </div>                        
-                        <button type="submit" class="btn btn-sm btn btn-outline-light">Submit</button>
-                    </form>
+                    <p>Hi there and welcome to chibitales.org!</p>
+                    <p>This page is the result of being obsessed with Chibi Fighters since it came to the Tron blockchain. We are not associated in any other way with the owners of Chibi Fighters, except that we got the OK to make this fanpage.</p>
+                    <p>We try to keep the page as up to date as possible, but it's a one person project and completly voluntary. So, sorry in advance if some information is missing or outdated.</p>
+                    <p>If you want to give feedback or input, please contact Rorschach on either Discord or Telegram for now.</p>
+                    <p> One last word. Putting money into Crypto is a high risk, just spend what you are willing to lose.</p>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL CHANGELOG -->
+    <div class="modal" tabindex="-1" role="dialog" id="changelogModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Changelog</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>26.04.2020</h3>
+                    <p>play - rewards section added</p>
+                    <p>play - adventures section removed</p>
+                    <p>added about us modal</p>
+                    <p>added changelog modal</p>
+                    <p>removed newsletter dummy</p>
+                    <p>removed claim snap shot from setup - create account</p>
+                    <p>removed kickstarter links, added patron links</p>
+                    <p>relaunch chibitales.org</p>
+                    <h3>29.03.2020</h3>
+                    <p>due to review further development on hold</p>
+                    <p>first release via chibitales.org linked to GitHub</p>
+                    <h3>06.03.2020</h3>
+                    <p>chibitales.org starts as a Code Institute Milestone project</p>
                 </div>                
             </div>
         </div>
