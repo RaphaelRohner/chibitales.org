@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    
+    <!-- BOOTSTRAP CSS3 INTEGRATION -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- FONTAWESOME ICONS INTEGRATION -->
+    <script src="https://kit.fontawesome.com/8fb5ae9ef1.js" crossorigin="anonymous"></script>
+    
+    <!-- GOOGLE FONTS INTEGRATION -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+    <!-- HOVER EFFECTS INTEGRATION -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    
+    <!-- CSS3 STYLESHEET INTEGRATION -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <title>chibitales.org / play</title>
+</head>
+<body>
+    <header>
+        <!-- NAVIGATION -->
+        <div class="row">
+            <div class="col">                
+                <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+                    <div class="container">
+                        <!-- a class="navbar-brand" href="#">chibitales.org</a -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <!-- Button Buy -->
+                                <li class="nav-item active list-inline-item menuitem">
+                                    <a class="btn btn-chib-high" href="https://chibifighters.com/buy" target="_blank" role="button"><i class="fas fa-euro-sign" aria-hidden="true"></i><span> Get Packs</span></a>
+                                </li>
+
+                                <!-- Button Game -->
+                                <li class="nav-item active list-inline-item menuitem dropdown">
+                                    <a class="btn btn-chib dropdown-toggle" href="index.html" id="navbarDropdownGame" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-home" aria-hidden="true"></i><span> Game</span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownGame">                                    
+                                    <a class="dropdown-item" href="index.html#types">Card Types</a>
+                                    <a class="dropdown-item" href="index.html#rarity">Rarity</a>
+                                    <a class="dropdown-item" href="index.html#juice">Juice</a>
+                                    <a class="dropdown-item" href="index.html#stats">Stats</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="index.html">Game Main</a>
+                                    </div>
+                                </li>
+
+                                <!-- Button Play -->
+                                <li class="nav-item list-inline-item menuitem dropdown">
+                                    <a class="btn btn-chib dropdown-toggle" href="play.html" id="navbarDropdownPlay" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-gamepad" aria-hidden="true"></i><span> Play</span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownPlay">
+                                    <a class="dropdown-item" href="play.html#adventures">Adventures</a>
+                                    <a class="dropdown-item" href="play.html#hunt">Hunt</a>
+                                    <a class="dropdown-item" href="play.html#raids">Raids</a>
+                                    <a class="dropdown-item" href="play.html#match">Match</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="play.html">Play Main</a>
+                                    </div>
+                                </li>
+
+                                <!-- Button Setup -->
+                                <li class="nav-item list-inline-item menuitem dropdown">
+                                    <a class="btn btn-chib dropdown-toggle" href="setup.html" id="navbarDropdownSetup" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-wrench" aria-hidden="true"></i><span> Setup</span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownSetup">
+                                    <a class="dropdown-item" href="setup.html#create">Create Account</a>
+                                    <a class="dropdown-item" href="setup.html#buy">Buy Packs</a>
+                                    <a class="dropdown-item" href="setup.html#open">Open Packs</a>
+                                    <a class="dropdown-item" href="setup.html#collection">Collection</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="setup.html">Setup Main</a>
+                                    </div>
+                                </li>
+
+                                <!-- Button TRADE -->
+                                <li class="nav-item list-inline-item menuitem dropdown">
+                                    <a class="btn btn-chib dropdown-toggle" href="trade.html" id="navbarDropdownWallet" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fab fa-ethereum" aria-hidden="true"></i><span> Trade</span></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownWallet">
+                                    <a class="dropdown-item" href="trade.html#metamask">MetaMask</a>
+                                    <a class="dropdown-item" href="trade.html#connectmm">Connect MM</a>
+                                    <a class="dropdown-item" href="trade.html#mint">Mint Chibis</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="trade.html">Trade Main</a>
+                                    </div>
+                                </li>
+
+                                <!-- Button Support -->
+                                <li class="nav-item active list-inline-item menuitem">
+                                    <a class="btn btn-chib-high" href="https://www.kickstarter.com/projects/garryrunke/chibi-fighters" target="_blank" role="button"><i class="fas fa-coins" aria-hidden="true"></i><span> Support</span></a>
+                                </li>
+                            </ul>                    
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- HEADLINE -->
+        <div  class="row no-gutters">
+            <!-- Hero Image -->
+            <a  href="https://chibifighters.com/game" target="_blank" class="col-md-3 logo">            
+            </a>
+            
+            <!-- Headlines -->
+            <div class="col-md-9 headline  bg-color-header uppercase">
+                <div class="col">
+                    <h1>chibitales.org</h1>
+                    <h2>chibi fighters 2.0</h2>
+                    <h3>- all you need to know -</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- PLAY SECTION -->    
+    <section class="container-fluid">        
+        <div class="row">
+            <!-- PLAY LEFT COLUMN -->        
+            <div class="col-md-3 bg-color-theme section-column-left-main">
+                <div class="row">
+                    <div class="col-12">                        
+                        <h3 class="section-heading-left uppercase">
+                            Play
+                        </h3>
+                    </div>
+                </div>
+                <div class="chibi-overview-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Types:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            In Game Mini Games
+                        </p>
+                    </div>
+                </div>
+                <div class="chibi-overview-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Categories:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            Idle PvE
+                        </p>
+                        <p>
+                            PvE
+                        </p>
+                        <p>
+                            PvP
+                        </p>
+                    </div>
+                </div>
+                <div class="chibi-overview-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Rewards:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            Experience
+                        </p>
+                        <p>
+                            Raid Points
+                        </p>
+                        <p>
+                            Loot
+                        </p>
+                    </div>
+                </div>                
+            </div>
+            
+            <!-- PLAY RIGHT COLUMN -->
+            <div class="col-md-9 bg-color-header section-column-right-main">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading-right uppercase">The Games of Chibi Fighters 2.0</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-question" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">What are the Games?</h4>
+                                <p>
+                                    Chibi Fighters 2.0 includes those games so far
+                                </p>
+                                <ul>
+                                    <li>Adventures</li>
+                                    <li>Hunt</li>
+                                    <li>Raids</li>
+                                    <li>Match</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">Goals</h4>
+                                <p>
+                                    Chibis is not just a Collectable Trading Card Game. You can level, develop and equip your cards.
+                                </p>
+                                <p>
+                                    To do so you need to:
+                                </p>
+                                <ul>
+                                    <li>Collect Experience</li>
+                                    <li>Earn Raid Points</li>
+                                    <li>Find loot</li>
+                                    <li>Compete with other players</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">Good to know</h4>
+                                <p>
+                                    There are some things you should pay attention to:
+                                </p>
+                                <ul>
+                                    <li>Don't spend all you earn straight</li>
+                                    <li>Things are in constant change</li>
+                                    <li>Take a look at the timely rotations</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLAY ADVENTURES SECTION -->
+    <section class="container-fluid" id="adventures">        
+        <div class="row">        
+            <!-- PLAY ADVENTURES LEFT COLUMN -->
+            <div class="col-md-3 bg-color-theme section-column-left">
+                <div class="row">
+                    <div class="col-12">                        
+                        <h3 class="section-heading-left uppercase">
+                            Adventures
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="assets/images/fighters_05_Skully_Bitey.png" alt="Skully vs Bitey">
+                    </div>
+                </div>                
+            </div>
+            
+            <!-- PLAY ADVENTURES RIGHT COLUMN -->
+            <div class="col-md-9 bg-color-header section-column-right">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading-right uppercase">Up for an Adventure?</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-question" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">What is it?</h4>
+                                <p>
+                                    The two Adventures are the Idle component of Chibis:
+                                </p>
+                                <ul>
+                                    <li>Send out two teams of one to three Chibis to:</li>
+                                    <li><strong>Courtyard of Death</strong> and</li>
+                                    <li><strong>Pit of Snakes</strong></li>                                    
+                                    <li>Each equipped Chibi earns experience / minute</li>
+                                    <li>Start here to progress quickly !!</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">Earning Exp</h4>
+                                <p>
+                                To send out a Chibi: Click the Adventures Tab and then a grey slot.
+                                </p>
+                                <p>
+                                A list of available cards pops up. Just select one to equip.
+                                </p>
+                                <ul>
+                                    <li>Courtyard of death requires and earns:</li>
+                                    <li>lvl 1 - 10exp | lvl 5 - 15exp | lvl 10 - 20exp</li>
+                                    <li>Pit of Snakes requires and earns:</li>
+                                    <li>lvl 10 - 10exp | lvl 20 - 20exp | lvl 30 - 30exp</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">Good to know</h4>
+                                <p>
+                                    And here come some tipps for Adventures
+                                </p>
+                                <ul>
+                                    <li>It's the BEST way to earn exp. Up to 150k in 24h</li>
+                                    <li>You need to <strong>claim</strong> the exp earned</li>
+                                    <li>After eight hours no more exp is added if you don't</li>                                
+                                    <li>You just need to equip cards once, but...</li>
+                                    <li>Check if a Slot got unequipped accidentally</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLAY HUNT SECTION -->
+    <section class="container-fluid" id="hunt">        
+        <div class="row">        
+            <!-- PLAY HUNT LEFT COLUMN -->
+            <div class="col-md-3 bg-color-theme section-column-left">
+                <div class="row">
+                    <div class="col-12">                        
+                        <h3 class="section-heading-left uppercase">
+                            Hunt
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="assets/images/fighters_06_LizzardPeople_Skully.png" alt="Lizzard People vs Skully">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PLAY HUNT RIGHT COLUMN -->
+            <div class="col-md-9 bg-color-header section-column-right">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading-right uppercase">Ready for the Hunt?</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-question" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">What is it?</h4>
+                                <p>
+                                    The Hunt is a PvE Mini Game for two to six Chibis
+                                </p>
+                                <ul>
+                                    <li>Equip two to six Chibis to your party</li>
+                                    <li>The Hunt requires a ticket to play it </li>
+                                    <li>You get five tickets at 7pm GMT per day</li>
+                                    <li>You will earn exp</li>                                    
+                                    <li>You may find loot</li>
+                                    <li>Loot can be Chibis, Armor, Weapons, Skills</li>                                   
+                                    <li>Loot cards are just found ingame</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">How to Play</h4>
+                                <p>
+                                Click the Hunt Tab and equip one loadout with 2-6 Chibis
+                                </p>
+                                <ul>
+                                    <li>Click Start Hunt</li>
+                                    <li>Your party will face its first opponent</li>
+                                    <li>After the fight you can claim loot or continue</li>
+                                    <li>The number of opponents increases every 4 rounds by one up to 6</li>
+                                    <li>The HP of each opponent raises by 50 each round</li>
+                                    <li>The DMG of each opponent raises by 5 each round</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">Good to know</h4>
+                                <p>
+                                You really want that loot?
+                                </p>
+                                <ul>
+                                    <li>Drops are random and can be up to two cards at once</li>
+                                    <li>If you lose a fight, <strong>all previous loot is lost!!</strong></li>
+                                    <li>So pay attention to your teams strength</li>
+                                    <li>A team of 6 (1/1/5/10/10/20) should stop around stage 12</li>
+                                    <li>You earn some exp as well, starting at 30 up to 100 from stage 20 on</li>
+                                    <li>You can stop and restart the Hunt at any point</li>
+                                    <li>Only claiming your loot or losing will finish a round</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLAY RAIDS SECTION -->
+    <section class="container-fluid" id="raids">        
+        <div class="row">        
+            <!-- PLAY RAIDS LEFT COLUMN -->
+            <div class="col-md-3 bg-color-theme section-column-left">
+                <div class="row">
+                    <div class="col-12">                        
+                        <h3 class="section-heading-left uppercase">
+                            Raids
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="assets/images/fighters_07_Skully_LizzardPet.png" alt="Skully vs Lizzard Pet">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PLAY RAIDS COLUMN -->
+            <div class="col-md-9 bg-color-header section-column-right">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading-right uppercase">Let's Raid !!</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-question" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">What is it?</h4>
+                                <p>
+                                    Raids are PvE Mini Games for two to six Chibis
+                                </p>
+                                <ul>
+                                    <li>There are 21 Raids on a seven day rotation</li>
+                                    <li>Three of those are available each day</li>
+                                    <li>Raid 1 requires lvl 10 Chibis</li>
+                                    <li>Raid 2 requires lvl 20 Chibis</li>
+                                    <li>Raid 3 requires lvl 50 Chibis minted to the Ethereum Chain</li>
+                                    <li>Each day you get ten Raid tickets at 7pm GMT</li>
+                                    <li>You can spend them on all three raids</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fas fa-gem" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">Rewards</h4>
+                                <p>
+                                Lots of rewards in Raids! Let's take an extra look
+                                </p>
+                                <ul>                                    
+                                    <li>All Raids will give you min 100exp and 5 Raid Points</li>
+                                    <li>There is the chance to win 10 to 35 Raid Points</li>
+                                    <li>Each Raid offers instant loot</li>
+                                    <li>And one player per raid wins the daily raffle</li>
+                                    <li>The loot is wide ranged and offers all cards that can drop.</li>
+                                    <li>Including the Legendary Chibi Wolf once a week in a raffle!</li>
+                                    <li>Ten players win a nice pack of exp and RP daily per raid</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">How to Play</h4>
+                                <p>
+                                Click the Raids Tab and equip one Raid with 2-6 Chibis
+                                </p>
+                                <ul>
+                                    <li>Click the animation to start a Raid</li>
+                                    <li>You can fast forward by clicking the green arrow</li>
+                                    <li>After the fight pick a loot box and open it.</li>
+                                    <li>You can either continue with the same Raid</li>
+                                    <li>or chose another one by equiping it</li>
+                                    <li>Check out the Leader Board under the Raid!</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">Good to know</h4>
+                                <p>
+                                Storm the Leader Board !!
+                                </p>
+                                <ul>
+                                    <li>Raids are quick and easy, don't miss out on them!</li>
+                                    <li>Under each raid you find its current Leader Board</li>
+                                    <li>Out of tickets? Just click a raid to buy more for exp</li>
+                                    <li>Raids drop some of the best cards in game:</li>
+                                    <li>Chibis - Young Spartan (Rare), Assassin (Mysthic)</li>
+                                    <li>Weapon - Slicer (Rare)</li>
+                                    <li>Armor - The Full Rare Cloth Set, currently the best Armor</li>
+                                    <li>Skill - Waterboarding, attacks up to three opponents</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLAY MATCH SECTION -->
+    <section class="container-fluid" id="match">        
+        <div class="row">        
+            <!-- PLAY MATCH LEFT COLUMN -->
+            <div class="col-md-3 bg-color-theme section-column-left">
+                <div class="row">
+                    <div class="col-12">                        
+                        <h3 class="section-heading-left uppercase">
+                            Match
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="assets/images/fighters_08_Stomper_Skully.png" alt="Stomper vs Skully">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PLAY MATCH RIGHT COLUMN -->
+            <div class="col-md-9 bg-color-header section-column-right">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading-right uppercase">What are you looking at?</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-question" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">What is it?</h4>
+                                <p>
+                                    Your team fights other teams in PvP Matches  
+                                </p>
+                                <ul>
+                                    <li>Matches are not fully done yet, but</li>
+                                    <li>Any Chibi can be put into your team</li>
+                                    <li>You can equip one to six Chibis</li>
+                                    <li>You have an attacking and a defending team</li>                                    
+                                    <li>You can use the same Chibis for both</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">How to Play Matches</h4>
+                                <p>
+                                    Click the Match Tab and equip your team
+                                </p>
+                                <ul>                                    
+                                    <li>So far you can play Match without limits</li>
+                                    <li>But a limit of 10 fights a day is in planning</li>
+                                    <li>After setting up your two teams click Search</li>
+                                    <li>The Game will search for worthy opponents</li>
+                                    <li>Scroll through them and pick whichever you like</li>
+                                    <li>Click the attack button and enjoy the Match</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">Good to know</h4>
+                                <p>
+                                    So far you just see how well your team competes
+                                </p>
+                                <ul>
+                                    <li>A win will earn you 100 points</li>
+                                    <li>A lose will take 30 points of your ballance</li>
+                                    <li>You see your rank at the top of the page</li>
+                                    <li>After clicking Search you might need to scroll down.</li>
+                                    <li>There should be four to five opponent teams</li>
+                                    <li>You can attack empty teams and still earn points</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">About</h5>
+                <p class="inline-block newsletter">
+                    All the Chibi 2.0 Infos<br>                
+                    <a href="#contactModal" data-toggle="modal" data-target="#contactModal">-- Get the News --</a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="uppercase general-sub">Invest</h5>
+                    </div>
+                    <div class="row footer-btn">
+                        <div class="col-sm-6">                       
+                            <a class="btn btn-chib-high" href="https://chibifighters.com/buy" target="_blank" role="button"><i class="fas fa-euro-sign" aria-hidden="true"></i><span> Get Packs</span></a>                        
+                        </div>
+                        <div class="col-sm-6">
+                            <a class="btn btn-chib-high" href="https://www.kickstarter.com/projects/garryrunke/chibi-fighters" target="_blank" role="button"><i class="fas fa-coins" aria-hidden="true"></i><span> Support</span></a>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Chibi Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://discordapp.com/channels/417957376625475584/417957377153826817">
+                            <i class="fab fa-discord" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://t.me/chibifighters">
+                            <i class="fab fa-telegram" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/chibifighters">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCD0MdbqmK1mwHtViDcyg41Q">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">                     
+                        <a target="_blank" href="https://de-de.facebook.com/chibifighters/">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://de.linkedin.com/company/chibi-fighters">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/p/BjPj9hdAoQz/">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+        
+    <!-- Modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="contactModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign up for our Chibi 2 Newsletter</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="Email">Email Address</label>
+                            <input type="email" class="form-control" id="Email" placeholder="just a dummy form for now" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">Your email won't be shared by us.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="EmailRepeat">Repeat Email</label>
+                            <input type="email" class="form-control" id="EmailRepeat" placeholder="just a dummy form for now">
+                        </div>                        
+                        <button type="submit" class="btn btn-sm btn btn-outline-light">Submit</button>
+                    </form>
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap external Javascript Links -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+    
+</body>
+</html>
