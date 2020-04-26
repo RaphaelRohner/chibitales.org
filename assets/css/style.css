@@ -329,7 +329,12 @@ footer{
     }
 
     .navbar{
-        margin-left: 20vw;
+        margin-left: 25vw;
+        padding-left: 0px;
+    }
+
+    .navbar .container{
+        margin-left: 0px;
     }
 
     .btn-chib,
@@ -344,6 +349,13 @@ footer{
     }
       
 }
+
+/*----------LARGE----------*/
+@media(min-width: 992px){
+
+    .navbar{
+        margin-left: 20vw;
+    }
 
 /*----------XLARGE----------*/
 @media(min-width: 1200px){
