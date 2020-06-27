@@ -10,8 +10,7 @@
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon"> 
     
     <!-- BOOTSTRAP CSS3 INTEGRATION -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
     
     <!-- FONTAWESOME ICONS INTEGRATION -->
     <script src="https://kit.fontawesome.com/8fb5ae9ef1.js" crossorigin="anonymous"></script>
@@ -25,7 +24,7 @@
     <!-- CSS3 STYLESHEET INTEGRATION -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
-    <title>chibitales.org / trade</title>
+    <title>chibitales.org - game</title>
 </head>
 <body>
     <header>
@@ -41,9 +40,10 @@
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav">
-                                <!-- Button Buy -->
+                                
+                                <!-- Button Find -->
                                 <li class="nav-item active list-inline-item menuitem">
-                                    <a class="btn btn-chib-high" href="https://chibifighters.com/buy" target="_blank" role="button"><i class="fas fa-euro-sign" aria-hidden="true"></i><span> Get Packs</span></a>
+                                    <a class="btn btn-chib" href="find.html" id="navbarDropdownFind" role="button"><i class="fas fa-search" aria-hidden="true"></i><span> Find</span></a>                                                                       
                                 </li>
 
                                 <!-- Button Game -->
@@ -85,7 +85,7 @@
                                     </div>
                                 </li>
 
-                                <!-- Button TRADE -->
+                                <!-- Button Trade -->
                                 <li class="nav-item list-inline-item menuitem dropdown">
                                     <a class="btn btn-chib dropdown-toggle" href="trade.html" id="navbarDropdownWallet" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fab fa-ethereum" aria-hidden="true"></i><span> Trade</span></a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdownWallet">
@@ -96,11 +96,6 @@
                                     <a class="dropdown-item" href="trade.html">Trade Main</a>
                                     </div>
                                 </li>
-
-                                <!-- Button Support -->
-                                <li class="nav-item active list-inline-item menuitem">
-                                    <a class="btn btn-chib-high" href="https://www.patreon.com/bePatron?u=26912501&redirect_uri=https%3A%2F%2Fchibifighters.com%2Faccount&utm_medium=widget" target="_blank" role="button"><i class="fas fa-coins" aria-hidden="true"></i><span> Support</span></a>
-                                </li>
                             </ul>                    
                         </div>
                     </div>
@@ -109,6 +104,7 @@
         </div>
         <!-- HEADLINE -->
         <div  class="row no-gutters">
+
             <!-- Hero Image -->
             <a  href="https://chibifighters.com/game" target="_blank" class="col-md-3 logo">            
             </a>
@@ -124,78 +120,87 @@
         </div>
     </header>
 
-    <!-- TRADE SECTION -->    
+    <!-- GAME SECTION -->    
     <section class="container-fluid">        
         <div class="row">
-            <!-- TRADE LEFT COLUMN -->        
+
+            <!-- GAME LEFT COLUMN -->        
             <div class="col-md-3 bg-color-theme section-column-left-main">
                 <div class="row">
                     <div class="col-12">                        
                         <h3 class="section-heading-left uppercase">
-                            Trade
+                            Game
                         </h3>
                     </div>
                 </div>
                 <div class="chibi-overview-item">
                     <div class="key">
                         <p class="uppercase">
-                            Goal:
+                            Platform:
                         </p>
                     </div>
                     <div class="value">
                         <p>
-                            Swap cards
-                        </p>
-                        <p>
-                            Buy cards
-                        </p>
-                        <p>
-                            Sell cards
+                            Any Browser
                         </p>
                     </div>
                 </div>
                 <div class="chibi-overview-item">
                     <div class="key">
                         <p class="uppercase">
-                            Channels:
+                            Type:
                         </p>
                     </div>
                     <div class="value">
                         <p>
-                            Peer to peer
+                            CCG / TCG
                         </p>
                         <p>
-                            Ethereum based
+                            Idle
                         </p>
                     </div>
                 </div>
                 <div class="chibi-overview-item">
                     <div class="key">
                         <p class="uppercase">
-                            Examples:
+                            Genre:
                         </p>
                     </div>
                     <div class="value">
                         <p>
-                            Discord Channel
+                            Fantasy
                         </p>
                         <p>
-                            Opensea.io
-                        </p>
-                        <p>
-                            Ebay
+                            PvE / PvP
                         </p>
                     </div>
-                </div>                
+                </div>
+                <div class="chibi-overview-item">
+                    <div class="key">
+                        <p class="uppercase">
+                            Special:
+                        </p>
+                    </div>
+                    <div class="value">
+                        <p>
+                            Ethereum linkable
+                        </p>
+                        <p>                        
+                            Tron linkable
+                        </p>
+                    </div>
+                </div>
             </div>
             
-            <!-- PLAY RIGHT COLUMN -->
+            <!-- GAME RIGHT COLUMN -->
             <div class="col-md-9 bg-color-header section-column-right-main">
                 <div class="row">
                     <div class="col">
-                        <h3 class="section-heading-right uppercase">Creating value while playing</h3>
+                        <h3 class="section-heading-right uppercase">About Chibi Fighters 2.0</h3>
                     </div>
                 </div>
+
+                <!-- WHAT IS IT -->
                 <div class="row">
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6">
                         <div class="row">
@@ -203,79 +208,59 @@
                                 <i class="chibi-infos-icon fa fa-question" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="chibi-infos-heading uppercase">What is it about?</h4>
+                                <h4 class="chibi-infos-heading uppercase">What is it?</h4>
                                 <p>
-                                    You own the cards you play. Buy them - sell them!
+                                    A game to collect, play and trade virtual cards
                                 </p>
                                 <ul>
-                                    <li>Most games let you play</li>
-                                    <li>but the content isn't yours</li>
-                                    <li>In Chibi Fighters 2.0 you own your cards</li>
-                                    <li>Similar to a physical trading card</li>
-                                    <li>Swap them! Buy them! Sell them! If you can.</li>
+                                    <li>Buy and <strong>own</strong> collectable cards</li>
+                                    <li>Play with your cards</li>
+                                    <li>Level your cards</li>
+                                    <li>Skill and equip your Chibi-cards</li>                                    
+                                    <li>Swap your cards with others</li>
+                                    <li>Sell your cards on blockchain</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-6">
+
+                    <!-- CHANCES -->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
                         <div class="row">
                             <div class="col-2">
-                                <i class="chibi-infos-icon fas fa-id-card" aria-hidden="true"></i>
+                                <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="chibi-infos-heading uppercase">Account ID</h4>
+                                <h4 class="chibi-infos-heading uppercase">Chances</h4>
                                 <p>
-                                    Find out your Account ID
+                                Did you ever spend months in playing and developing a character just to find out you don't own the result?
                                 </p>
+                                <p>In Chibi Fighters you</p>
                                 <ul>
-                                    <li>Go to chibifighters.com</li>
-                                    <li>Login and go to Account</li>
-                                    <li>Top of the page you find your Account ID</li>
-                                    <li>The Account ID is unique.</li>
-                                    <li>Any card send to this ID is transferred to you</li>
-                                </ul>
-                            </div>
-                        </div>                        
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="chibi-infos-icon fas fa-paper-plane" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="chibi-infos-heading uppercase">Send Cards</h4>
-                                <p>
-                                    How to send a card
-                                </p>
-                                <ul>
-                                    <li>In game open collection</li>
-                                    <li>Click the card type e.g. Hercules</li>
-                                    <li>Click the Hercules you want to send</li>
-                                    <li>Select Transfer Card button</li>
-                                    <li>Enter the ID you want to send to</li>
-                                    <li>Click the Trolley button</li>
-                                    <li>Sending a card will cost you ten CHIBS</li>
+                                    <li>own your cards</li>
+                                    <li>own their progress</li>
+                                    <li>can trade them as you please</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-6">
+
+                    <!-- RISKS -->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
                         <div class="row">
                             <div class="col-2">
                                 <i class="chibi-infos-icon fas fa-exclamation-circle" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="chibi-infos-heading uppercase">Attention</h4>
+                                <h4 class="chibi-infos-heading uppercase">Risks</h4>
                                 <p>
-                                    There are some things you have to pay attention to:
+                                But - no light without dark
                                 </p>
                                 <ul>
-                                    <li>You can make any deal you want</li>
-                                    <li>But the risk is totally on you if it goes wrong</li>
-                                    <li>Write down the ID and make sure it's the right one</li>
-                                    <li>Write down the unique card ID from the bottom right</li>
-                                    <li>Ask a neutral third from the community to assist</li>
-                                    <li>Get yourself a wallet and use e.g. Opensea</li>
+                                    <li>Chibi Fighters 2.0 is an Alpha Version</li>
+                                    <li>There will be bugs</li>
+                                    <li>It's free to play now but hard to progress</li>
+                                    <li>and it might not succeed</li>
                                 </ul>
                             </div>
                         </div>
@@ -285,32 +270,35 @@
         </div>
     </section>
 
-    <!-- TRADE METAMASK SECTION -->
-    <section class="container-fluid" id="metamask">        
-        <div class="row">        
-            <!-- TRADE METAMASK LEFT COLUMN -->
+    <!-- GAME CARD TYPES SECTION -->
+    <section class="container-fluid" id="types">        
+        <div class="row">
+
+            <!-- GAME CARD TYPES LEFT COLUMN -->
             <div class="col-md-3 bg-color-theme section-column-left">
                 <div class="row">
                     <div class="col-12">                        
                         <h3 class="section-heading-left uppercase">
-                            MetaMask
+                            Card Types
                         </h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <img class="img-fluid" src="assets/images/fighters_13_Skully_WhiteDeath.png" alt="Skully vs White Death">
+                        <img class="img-fluid" src="assets/images/fighters_01_Skully_Hood.png" alt="Skully vs Hood">
                     </div>
                 </div>                
             </div>
             
-            <!-- TRADE METAMASK RIGHT COLUMN -->
+            <!-- GAME CARD TYPES RIGHT COLUMN -->
             <div class="col-md-9 bg-color-header section-column-right">
                 <div class="row">
                     <div class="col">
-                        <h3 class="section-heading-right uppercase">Welcome to Ethereum</h3>
+                        <h3 class="section-heading-right uppercase">What type of a card are you?</h3>
                     </div>
                 </div>
+
+                <!-- WHAT IS IT CARD TYPES -->
                 <div class="row">
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6">
                         <div class="row">
@@ -320,41 +308,42 @@
                             <div class="col-10">
                                 <h4 class="chibi-infos-heading uppercase">What is it?</h4>
                                 <p>
-                                    New to Ethereum or coming from Tron? 
+                                    Collect and skill different card types
                                 </p>
                                 <ul>
-                                    <li>Chibis 2.0 isn't Blockchain based anymore</li>
-                                    <li>You can buy with Paypal and cards are offchain</li>
-                                    <li>In Chibis 1.0 they were all tokenized</li>                                    
-                                    <li>But you still can mint cards to the Ethereum chain</li>
-                                    <li>And for high lvl Raids you need to do so</li>
-                                    <li>So, you'll need a wallet</li>
+                                    <li>Chibis - <strong>your equipable fighters</strong></li>
+                                    <li>Armor</li>
+                                    <li>Trinkets</li>
+                                    <li>Skills</li>                                    
+                                    <li>Weapons</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+
+                    <!-- CHIBIS CARD TYPES -->
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6">
                         <div class="row">
                             <div class="col-2">
                                 <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="chibi-infos-heading uppercase">Install MetaMask</h4>
+                                <h4 class="chibi-infos-heading uppercase">Chibis</h4>
                                 <p>
-                                Seting up a MetaMask Ethereum wallet is easy
+                                Chibis are your main cards - level them up
                                 </p>
+                                <p>You can equip them with</p>
                                 <ul>
-                                    <li>For example: Desktop, Google Chrome:</li>
-                                    <li>Go to Settings, Extensions</li>
-                                    <li>Search for MetaMask and add it.</li>
-                                    <li>Open MetaMask and select Create a Wallet</li>
-                                    <li>Set a safe password</li>
-                                    <li>WRITE DOWN THE PASSWORD PHRASE AND KEEP IT SAFE</li>
-                                    <li>confirm the phrase and - that's it</li>
+                                    <li>Armor - Head + Chest + Legs + Hands + Feet</li>
+                                    <li>Trinket - One</li>
+                                    <li>Skill - One</li>
+                                    <li>Weapon - One</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+
+                    <!-- GOOD TO KNOW CARD TYPES -->
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6">
                         <div class="row">
                             <div class="col-2">
@@ -363,17 +352,13 @@
                             <div class="col-10">
                                 <h4 class="chibi-infos-heading uppercase">Good to know</h4>
                                 <p>
-                                    Some things about wallets you NEED to keep in mind
+                                Equipping your Chibis has some restrictions:
                                 </p>
                                 <ul>
-                                    <li>The phrase allows to import it into ANY wallet</li>
-                                    <li>Anybody getting access to it OWNS your funds</li>
-                                    <li>NOBODY can help you gain access back if you lose it</li>                                
-                                    <li>Keep it safe and keep it physical</li>
-                                    <li>You'll find a cryptic public address in MM</li>
-                                    <li>Funds are send from and received by this address</li>
-                                    <li>You will need to pay some sort of fee for transactions</li>
-                                    <li>At e.g changelly.com you can buy with Visa</li>
+                                    <li>It depends on the Juice available,</li>
+                                    <li>which depends on your Chibi's level</li>
+                                    <li>Different slots get available at different levels</li>
+                                    <li>and it depends on the Chibi and its rarity</li>
                                 </ul>
                             </div>
                         </div>
@@ -383,32 +368,34 @@
         </div>
     </section>
 
-    <!-- TRADE CONNECT METAMASK SECTION -->
-    <section class="container-fluid" id="connectmm">        
-        <div class="row">        
-            <!-- TRADE CONNECT METAMASK LEFT COLUMN -->
+    <!-- GAME RARITY SECTION -->
+    <section class="container-fluid" id="rarity">        
+        <div class="row"> 
+
+            <!-- GAME RARITY LEFT COLUMN -->
             <div class="col-md-3 bg-color-theme section-column-left">
                 <div class="row">
                     <div class="col-12">                        
                         <h3 class="section-heading-left uppercase">
-                            Connect Metamask
+                            Rarity
                         </h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <img class="img-fluid" src="assets/images/fighters_14_Shiney_Skully.png" alt="Shiney vs Skully">
+                        <img class="img-fluid" src="assets/images/fighters_02_DarkMummy_Skully.png" alt="Dark Mummy vs Skully">
                     </div>
                 </div>
             </div>
             
-            <!-- TRADE CONNECT METAMASK RIGHT COLUMN -->
+            <!-- GAME RARITY RIGHT COLUMN -->
             <div class="col-md-9 bg-color-header section-column-right">
                 <div class="row">
                     <div class="col">
-                        <h3 class="section-heading-right uppercase">Connect your Chibis</h3>
+                        <h3 class="section-heading-right uppercase">The Common and the Legendary</h3>
                     </div>
                 </div>
+                <!-- WHAT IS IT RARITY-->
                 <div class="row">
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6">
                         <div class="row">
@@ -418,38 +405,64 @@
                             <div class="col-10">
                                 <h4 class="chibi-infos-heading uppercase">What is it?</h4>
                                 <p>
-                                    Chibi Fighters 2.0 cards are not on Chain by default
+                                    Rarity describes how many cards of a type exist:
                                 </p>
                                 <ul>
-                                    <li>If you want to use Blockchain marketplaces or</li>
-                                    <li>if you want to play high lvl content in Chibis 2.0</li>
-                                    <li>you will need to mint to the Chain</li>
-                                    <li>First you need to connect your Chibi Account with your Ethereum Wallet</li>
+                                    <li>Unique ~ 1-4 Chibi cards exist</li>
+                                    <li>Legendary ~ 1% per edition</li>
+                                    <li>Mythic ~ 6% per edition</li>
+                                    <li>Rare ~ 30% per edition</li>                                    
+                                    <li>Common ~ 63% per edition</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+
+                    <!-- IDENTIFY RARITY -->
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6">
                         <div class="row">
                             <div class="col-2">
                                 <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="chibi-infos-heading uppercase">Connect to ETH</h4>
+                                <h4 class="chibi-infos-heading uppercase">Identify</h4>
                                 <p>
-                                Connect your Game Account with your Wallet
+                                You can easily recognize the rarity of a card:
                                 </p>
                                 <ul>
-                                    <li>Copy your Public Address from e.g. MetaMask</li>
-                                    <li>Login into Chibi Fighters</li>
-                                    <li>Click the Shiney Section in the top right corner</li>
-                                    <li>It's where your exp is displayed as well</li>
-                                    <li>Paste your Wallet Key in</li>
-                                    <li>Confirm by clicking the green tick button</li>
+                                    <li>Card IDs 34-42 = unique card</li>
+                                    <li>Golden frame = legendary card</li>
+                                    <li>Red frame = mythic card</li>
+                                    <li>Blue frame = rare card</li>
+                                    <li>Grey frame = common card</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+
+                    <!-- LEVEL AND SLOTS RARITY -->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fas fa-trophy" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">Max Level and Slots</h4>
+                                <p>
+                                Rarity matters and here is why:
+                                </p>
+                                <ul>
+                                    <li>Unique - max lvl 200 - 8 slots</li>
+                                    <li>Legendary - max lvl 200 - 8 slots</li>
+                                    <li>Mythic - max lvl 150 - 4 slots</li>
+                                    <li>Rare -max lvl 100 - 2 slots</li>
+                                    <li>Common - max lvl 50 - no slots</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GOOD TO KNOW RARITY -->
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6">
                         <div class="row">
                             <div class="col-2">
@@ -458,10 +471,13 @@
                             <div class="col-10">
                                 <h4 class="chibi-infos-heading uppercase">Good to know</h4>
                                 <p>
-                                Better than Nothing
+                                Some extra rarity infos:
                                 </p>
                                 <ul>
-                                    <li>Only connect one Wallet to one Account</li>
+                                    <li>Unique cards don't come from packs</li>
+                                    <li>So far the rarity of a card can not change</li>
+                                    <li>Each card type has its unique rarity</li>
+                                    <li>Meaning: If one of a type is common, all are</li>
                                 </ul>
                             </div>
                         </div>
@@ -471,32 +487,33 @@
         </div>
     </section>
 
-    <!-- TRADE MINT SECTION -->
-    <section class="container-fluid" id="mint">        
+    <!-- GAME JUICE SECTION -->
+    <section class="container-fluid" id="juice">        
         <div class="row">        
-            <!-- TRADE MINT LEFT COLUMN -->
+            <!-- GAME JUICE LEFT COLUMN -->
             <div class="col-md-3 bg-color-theme section-column-left">
                 <div class="row">
                     <div class="col-12">                        
                         <h3 class="section-heading-left uppercase">
-                            Mint
+                            Juice
                         </h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <img class="img-fluid" src="assets/images/fighters_15_Skully_Daven.png" alt="Skully vs Daven">
+                        <img class="img-fluid" src="assets/images/fighters_03_Skully_Magnus.png" alt="Skully vs Magnus">
                     </div>
                 </div>
             </div>
             
-            <!-- TRADE MINT COLUMN -->
+            <!-- GAME JUICE RIGHT COLUMN -->
             <div class="col-md-9 bg-color-header section-column-right">
                 <div class="row">
                     <div class="col">
-                        <h3 class="section-heading-right uppercase">Chain your Chibis</h3>
+                        <h3 class="section-heading-right uppercase">juicy, juicy Juice</h3>
                     </div>
                 </div>
+                <!-- WHAT IS IT JUICE -->
                 <div class="row">
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6">
                         <div class="row">
@@ -506,37 +523,39 @@
                             <div class="col-10">
                                 <h4 class="chibi-infos-heading uppercase">What is it?</h4>
                                 <p>
-                                    Ever wanted to print your own currency?
+                                    Yeah, you want this juice !!
                                 </p>
                                 <ul>
-                                    <li>Well not really, but coming close</li>
-                                    <li>You want to join the lvl50 Raid?</li>
-                                    <li>Or sell your card on Opensea.io for ETH?</li>
-                                    <li>Easy: Just mint your Chibis to Ethereum</li>                                   
+                                    <li>Each card shows its juice in the top left</li>
+                                    <li>Juice determines what your Chibi can equip</li>
+                                    <li>Chibi's Juice minus equipped Juice tells you how much Juice your Chibi has left</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+                    <!-- WHAT IS IT GET JUICE -->
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6">
                         <div class="row">
                             <div class="col-2">
-                                <i class="chibi-infos-icon fab fa-ethereum" aria-hidden="true"></i>
+                                <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
                             </div>
                             <div class="col-10">
-                                <h4 class="chibi-infos-heading uppercase">How to Mint</h4>
+                                <h4 class="chibi-infos-heading uppercase">How to get Juice</h4>
                                 <p>
-                                Minting will make your card accessible from ETH 
+                                Even on high levels - Juice is always to little !
                                 </p>
-                                <ul>                                    
-                                    <li>Send some ETH to your wallet</li>
-                                    <li>Click the card of your choice</li>
-                                    <li>Click mint, confirm with the ETH button</li>
-                                    <li>Wait a few minutes and refresh</li>
-                                    <li>Your new tokenized card will show the Ethereum Logo</li>
+                                <p>So, here's how to get it:</p>
+                                <ul>
+                                    <li>A Chibi's basic Juice is 21</li>
+                                    <li>Max 80 for rare Chibis at lvl 100</li>
+                                    <li>Max 160 for mythic Chibis at lvl 150</li>
+                                    <li>Max 320 for legendary Chibis at lvl 200</li>
                                 </ul>
                             </div>
                         </div>
-                    </div>                    
+                    </div>
+
+                    <!-- GOOD TO KNOW JUICE -->
                     <div class="col-10 offset-1 offset-sm-0 col-sm-6">
                         <div class="row">
                             <div class="col-2">
@@ -545,14 +564,13 @@
                             <div class="col-10">
                                 <h4 class="chibi-infos-heading uppercase">Good to know</h4>
                                 <p>
-                                    Some Info on Blockchain Integration
+                                Keep in mind: Juice on equipable cards is taken from your Chibi's Juice.
                                 </p>
                                 <ul>
-                                    <li>Minting will cost you a small fee on ETH chain</li>
-                                    <li>Chibi 1.0 ETH & TRX tokens don't work in Chibis 2.0</li>
-                                    <li>Players were given packs and CHIBS for their investment</li>
-                                    <li>The Unique cards were distributed again</li>
-                                    <li>So far there is only ETH-Opensea integration</li>
+                                    <li>Currently you can equip 50% maxed gear</li>
+                                    <li>and 50% half maxed gear</li>
+                                    <li>Gear juice raises by 1 every 5 lvl</li>
+                                    <li>Chibi juice raises scaled, depending on the level</li>
                                 </ul>
                             </div>
                         </div>
@@ -562,84 +580,188 @@
         </div>
     </section>
 
+    <!-- GAME STATS SECTION -->
+    <section class="container-fluid" id="stats">        
+        <div class="row">
+
+            <!-- GAME STATS LEFT COLUMN -->
+            <div class="col-md-3 bg-color-theme section-column-left">
+                <div class="row">
+                    <div class="col-12">                        
+                        <h3 class="section-heading-left uppercase">
+                            Stats
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <img class="img-fluid" src="assets/images/fighters_04_Abchanchu_Skully.png" alt="Abchanchu vs Skully">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- GAME STATS RIGHT COLUMN -->
+            <div class="col-md-9 bg-color-header section-column-right">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading-right uppercase">Show me your Stats</h3>
+                    </div>
+                </div>
+
+                <!-- WHAT IS IT STATS -->
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-question" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">What is it?</h4>
+                                <p>
+                                    Stats define your Chibi's strength
+                                </p>
+                                <ul>
+                                    <li>Juice</li>
+                                    <li>Level</li>
+                                    <li>Health</li>
+                                    <li>Damage</li>                                    
+                                    <li>Charged Skill</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WHAT IS IT RAISE STATS -->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">How to raise your Stats</h4>
+                                <p>
+                                Most stats rise by leveling your card
+                                </p>
+                                <ul>
+                                    <li>By spending experience to level up your Chibi:
+                                        <ul>
+                                            <li>Your Level will go up by one / lvl</li>
+                                            <li>Your Health will go up by one / lvl</li>
+                                            <li>Your Damage will go up by one / lvl</li>
+                                        </ul>
+                                    </li>
+                                    <li>And by equipping other cards</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GOOD TO KNOW STATS -->
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="chibi-infos-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="chibi-infos-heading uppercase">Good to know</h4>
+                                <p>
+                                Chibis is still in Alpha version, so keep in mind:
+                                </p>
+                                <ul>
+                                    <li>You can't activate a charged skill yourself</li>
+                                    <li>Leveling any other card but Chibis isn't useful yet</li>
+                                    <li>You don't gain much by doing so</li>
+                                    <li>You lose on rare Juice points by doing so</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- FOOTER -->
     <footer class="container-fluid">
-        <div id="footer-details" class="row">
+
+        <!-- SOCIAL LINKS -->
+        <div id="footer-details" class="row">            
+
+            <!-- CHIBITALES.ORG SOCIAL LINKS -->
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
+                <h5 class="uppercase general-sub">chibitales.org social</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a href="#aboutusModal" data-toggle="modal" data-target="#aboutusModal">
-                            <i class="fas fa-info-circle" aria-hidden="true"></i>
-                            <span class="sr-only">chibitales</span>
+                            <i class="fas fa-info-circle social-icons" aria-hidden="true"></i>
+                            <span class="sr-only">About</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="#changelogModal" data-toggle="modal" data-target="#changelogModal">
-                            <i class="fas fa-edit" aria-hidden="true"></i>
-                            <span class="sr-only">changelog</span>
+                            <i class="fas fa-edit social-icons" aria-hidden="true"></i>
+                            <span class="sr-only">Changelog</span>                            
                         </a>
                     </li>                                       
                 </ul>
             </div>
-            <div class="col-sm-4">                   
-                <h5 class="uppercase general-sub">Invest</h5>
+
+            <!-- CHIBI FIGHTERS 2.0 SUPPORT LINKS -->
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Support Chibi Fighters 2.0</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://chibifighters.com/buy">
-                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                            <i class="fas fa-shopping-cart social-icons" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.patreon.com/bePatron?u=26912501&redirect_uri=https%3A%2F%2Fchibifighters.com%2Faccount&utm_medium=widget">
-                            <i class="fab fa-patreon" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>                                       
+                    </li>                                                           
                 </ul>                            
             </div>
+
+            <!-- CHIBI FIGHTERS 2.0 SOCIAL LINKS -->
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Chibis 2.0 Social</h5>
+                <h5 class="uppercase general-sub">Chibi Fighters 2.0 Social</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://discordapp.com/channels/417957376625475584/417957377153826817">
-                            <i class="fab fa-discord" aria-hidden="true"></i>
+                            <i class="fab fa-discord social-icons" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://t.me/chibifighters">
-                            <i class="fab fa-telegram" aria-hidden="true"></i>
+                            <i class="fab fa-telegram social-icons" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://twitter.com/chibifighters">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <i class="fab fa-twitter social-icons" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.youtube.com/channel/UCD0MdbqmK1mwHtViDcyg41Q">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <i class="fab fa-youtube social-icons" aria-hidden="true"></i>
                             <span class="sr-only">Pinterest</span>
                         </a>
                     </li>
                     <li class="list-inline-item">                     
                         <a target="_blank" href="https://de-de.facebook.com/chibifighters/">
-                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <i class="fab fa-facebook social-icons" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://de.linkedin.com/company/chibi-fighters">
-                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <i class="fab fa-linkedin social-icons" aria-hidden="true"></i>
                             <span class="sr-only">Youtube</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.instagram.com/p/BjPj9hdAoQz/">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <i class="fab fa-instagram social-icons" aria-hidden="true"></i>
                             <span class="sr-only">Youtube</span>
                         </a>
                     </li>
@@ -647,7 +769,7 @@
             </div>
         </div>
     </footer>
-        
+
     <!-- MODAL ABOUT US -->
     <div class="modal" tabindex="-1" role="dialog" id="aboutusModal">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -706,10 +828,20 @@
         </div>
     </div>
     
-    <!-- Bootstrap external Javascript Links -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- jQUERY external Javascript Link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>    
+    
+    <!-- Bootstrap external Javascript Link -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Popper external Javascript Link -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+    
+    <!-- JS CHIBIS DATA FILE INTEGRATION -->
+    <script src="assets/js/chibisData.js"></script>
+    
+    <!-- JS CHIBIS FILE INTEGRATION -->
+    <script src="assets/js/chibis.js"></script>
     
 </body>
 </html>

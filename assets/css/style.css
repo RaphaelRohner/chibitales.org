@@ -13,6 +13,7 @@
     font-weight: 300;
     color: #fafafa;
     letter-spacing: 1.3px;
+    font-size: 5vw;
 }
 
 .inline-block{
@@ -51,7 +52,7 @@
     border: 1px solid #ffc107;
 }
 
-/*--------------- Nav BUTTONS -----------------*/
+/*--------------- NAVIGATION BUTTONS -----------------*/
 
 .btn-chib{
     background-color: #2c0a37;
@@ -95,7 +96,7 @@
     max-width: 125px;  
 }
 
-/*--------------- Nav Dropdown -----------------*/
+/*--------------- NAVIGATION DROPDOWN -----------------*/
 
 .dropdown-item{
     color: #f4f4f4;
@@ -109,7 +110,7 @@
 
 /*------------------------------ HEADER --------------------------------*/
 
-/*--------------- Header HERO IMAGE -----------------*/
+/*--------------- HEADER HERO IMAGE -----------------*/
 
 .logo{
     background: url("../images/Skully_Hero_240.jpg");
@@ -119,7 +120,7 @@
     min-height: 240px;
 }
 
-/*--------------- Header HEADLINES -----------------*/
+/*--------------- HEADER HEADLINES -----------------*/
 
 .headline{    
     color: #2c0a37;
@@ -245,6 +246,45 @@
     color: #2c0a37;
 }
 
+/*---------- CHIBI CARD STATISTICS SECTION ----------*/
+
+.btn{
+    padding: 5px;
+}
+
+.chibi-stats{
+    color:#f4f4f4;
+    background-color: #2c0a37;
+    border-radius: 1em;
+    border: 2px solid #f4f4f4;    
+    padding: 1em;
+}
+
+.chibi-stats p{
+    margin: 3px;
+}
+
+.form-row {
+    margin: 0px;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.input-group-text {    
+    background-color: #2c0a37;
+    color: #fafafa;    
+    border: none;
+}
+
+.input-group-prepend {
+    width: 35%;
+}
+
+.custom-select {
+    border-color: #fafafa;
+    border-radius: 8px;
+}
+
 /*------------------------------ FOOTER --------------------------------*/
 
 footer{
@@ -267,13 +307,13 @@ footer{
     padding-bottom: 15px;
 }
 
-.social-links li a i {
-    width: 25px;
-    height: 25px;
-    padding: 8px 0;
+.social-icons {
+    font-size: 6vw;
+    width: 1.6em;
+    height: 1.6em;
+    padding: 0.6em 0;
     border-radius: 50%;
-    font-size: 16px;
-    line-height: 10px;
+    line-height: 0.5em;
     text-align: center;
     color: #2c0a37;
     background: #fafafa;
@@ -283,7 +323,7 @@ footer{
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{
+.social-icons:hover{
     background-color: #ffc107;
 }
 
@@ -316,6 +356,46 @@ footer{
 
 /*------------------------------ MEDIA_QUERIES --------------------------------*/
 
+/*----------XSMALL----------*/
+@media(min-width: 200px){
+    .chibi-stats h4{
+        font-size: 4.6vw;
+    }
+
+    .chibi-stats p{
+        font-size: 3.6vw;
+    }
+
+    .general-sub{        
+        font-size:3.5vw;
+    }
+}
+
+@media(min-width: 300px) {
+    .general-sub{        
+        font-size:4.5vw;
+    }
+}
+
+/*----------SMALL----------*/
+@media(min-width: 576px){
+    .chibi-stats h4{
+        font-size: 2.5vw;
+    }
+
+    .chibi-stats p{
+        font-size: 2vw;
+    }
+
+    .general-sub{        
+        font-size:1.4vw;
+    }
+
+    .social-icons {
+        font-size: 1.8vw;
+    }
+}
+
 /*----------MEDIUM----------*/
 @media(min-width: 768px){
 
@@ -340,14 +420,25 @@ footer{
     .btn-chib,
     .btn-chib-high,
     .dropdown-menu{
-        border: 1px solid #2c0a37;
+        border: 2px solid #f4f4f4;
     }
 
     .section-column-left,
     .section-column-right{
         padding-top: 70px;
     }
-      
+
+    .chibi-stats h4{
+        font-size: 1.25vw;
+    }
+
+    .chibi-stats p{
+        font-size: 1vw;
+    }
+
+    .general-sub{        
+        font-size:1.5vw;
+    }
 }
 
 /*----------LARGE----------*/
@@ -358,6 +449,19 @@ footer{
         padding-left: 5em;
     }
 
+    .chibi-stats h4{
+        font-size: 1.4vw;
+    }
+
+    .chibi-stats p{
+        font-size: 1vw;
+    }
+
+    .general-sub{        
+        font-size:1.8vw;
+    }
+}
+
 /*----------XLARGE----------*/
 @media(min-width: 1200px){
 
@@ -367,17 +471,25 @@ footer{
         
     }
 
-    .social-links li a i {
-        width: 38px;
-        height: 38px;
-        padding: 12px 0;
-        font-size: 24px;
-        line-height: 15px;
+    .chibi-stats h4{
+        font-size: 1vw;
+    }
+
+    .chibi-stats p{
+        font-size: 0.7vw;
+    }
+
+    .social-icons {
+        font-size: 2.2vw;
+    }
+
+    .general-sub{        
+        font-size:1.8vw;
     }
 
     .footer-btn{
         position: absolute;
         top: 30px;
 
-    }
+    }    
 }
