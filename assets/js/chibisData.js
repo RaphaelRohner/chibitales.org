@@ -110,12 +110,13 @@ let chibisArray = [
         {id: 109, name: "Metal+ Gloves", rarity: "Legendary", type: "Hands", slots: "0", source: "Drop - Hunt NM / Shop", set: "Metal+ Set", base_juice: "21", base_health: "801", base_dmg: "0", skill: "50% poison protection, 15% chance to stun", charged_skill: "none"},
         {id: 110, name: "Metal+ Pants", rarity: "Legendary", type: "Legs", slots: "0", source: "Drop - Hunt NM / Shop", set: "Metal+ Set", base_juice: "21", base_health: "801", base_dmg: "0", skill: "50% bleed protection", charged_skill: "none"},
         {id: 111, name: "Metal+ Helmet", rarity: "Legendary", type: "Head", slots: "0", source: "Drop - Hunt NM / Shop", set: "Metal+ Set", base_juice: "21", base_health: "801", base_dmg: "0", skill: "50% stun protection", charged_skill: "none"},
+        {id: 112, name: "Conqueror", rarity: "Legendary", type: "Chibi", slots: "8", source: "Drop - Conquer / Shop", set: "none", base_juice: "21", base_health: "351", base_dmg: "211", skill: "???", charged_skill: "???"},
     ];
 
     let cardTypesArray = ["all", "Chibi", "Weapon", "Head", "Chest", "Hands", "Legs", "Feet", "Skill", "Trinket"];
 
     let cardRarityArray = ["all", "Common", "Rare", "Mythic", "Legendary"];
 
-    let cardSourceArray = ["all", "Pack - Genesis", "Lottery - Invest", "Investment -A1 Fighters", "Drop - Raids / Shop", "Drop - Hunt", "Drop - Hunt / Shop", "Drop - Hunt NM / Shop"];
+    let cardSourceArray = ["all", "Pack - Genesis", "Lottery - Invest", "Investment -A1 Fighters", "Drop - Raids / Shop", "Drop - Hunt", "Drop - Hunt / Shop", "Drop - Hunt NM / Shop", "Drop - Conquer / Shop"];
 
     let cardSetArray = ["all", "Cloth Set", "Leather Set", "Metal Set", "Enforced Cloth Set", "Beginner Cloth Set", "Leather+ Set", "Metal+ Set", "none"];

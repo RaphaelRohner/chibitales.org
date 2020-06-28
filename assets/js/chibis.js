@@ -78,7 +78,7 @@ function findCardByNumber(event) {
     let chibiCardNumber = parseInt($("#cardNumber").val());
 
     /* ----------- CHECK IF INPUT IS IN RANGE -----------> */
-    if (chibiCardNumber > 111 || chibiCardNumber < 1) {
+    if (chibiCardNumber > 112 || chibiCardNumber < 1) {
         $("#chibiCardImage").html(searchInstructions);
         $("#chibiCardStatus").html(`No such card !!`);
         $("#cardNumber").val("").attr("placeholer", "search by card number").focus();                           
