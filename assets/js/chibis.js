@@ -20,6 +20,10 @@ function cardInfosHTML(chibiCard, cardTypes) {
     if (chibiCard == 39) {
         cardAmount = 0;
         cardBurnt = 0;
+    } else if (chibiCard == 112 {
+        cardAmount = 0;
+        cardBurnt= 0;
+    }
     } else {
         cardAmount = cardTypes[chibiCard].amount;
         cardBurnt = cardTypes[chibiCard].burnt;
