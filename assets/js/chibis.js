@@ -40,6 +40,7 @@ function cardInfosHTML(chibiCard, cardTypes) {
             <img class="img-fluid" src="${"https://chibifighters.s3-us-west-2.amazonaws.com/api/cards/card_" + chibiCard + ".png"}" />            
             <p>Rarity: ${arrayLine.rarity} | Type: ${arrayLine.type} | Slots: ${arrayLine.slots}</p>
             <p>Base-Juice: ${arrayLine.base_juice} | -Health: ${arrayLine.base_health} | -Damage: ${arrayLine.base_dmg}</p>
+            <p>Speed: ${arrayLine.speed}</p>
             <p>Skill: ${arrayLine.skill}</p>
             <p>Charged Skill: ${arrayLine.charged_skill}</p>
         </div>`;       
